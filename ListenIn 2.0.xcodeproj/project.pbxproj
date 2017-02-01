@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF9905721E415C66001BE158 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9905711E415C66001BE158 /* Images.xcassets */; };
 		EFC0BE6D1E37130D008306BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0BE6C1E37130D008306BE /* AppDelegate.swift */; };
-		EFC0BE6F1E37130D008306BE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0BE6E1E37130D008306BE /* RootViewController.swift */; };
-		EFC0BE711E37130D008306BE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0BE701E37130D008306BE /* DataViewController.swift */; };
-		EFC0BE731E37130D008306BE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0BE721E37130D008306BE /* ModelController.swift */; };
 		EFC0BE761E37130E008306BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC0BE741E37130E008306BE /* Main.storyboard */; };
-		EFC0BE781E37130E008306BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC0BE771E37130E008306BE /* Assets.xcassets */; };
 		EFC0BE7B1E37130E008306BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC0BE791E37130E008306BE /* LaunchScreen.storyboard */; };
+		EFC96B251E4131680085B92B /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC96B231E4131680085B92B /* SpotifyAudioPlayback.framework */; };
+		EFC96B261E4131680085B92B /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC96B241E4131680085B92B /* SpotifyAuthentication.framework */; };
+		EFC96B291E4132010085B92B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC96B281E4132010085B92B /* AVFoundation.framework */; };
+		EFC96B2B1E4132070085B92B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC96B2A1E4132070085B92B /* SystemConfiguration.framework */; };
+		EFC96B311E41376C0085B92B /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC96B301E41376C0085B92B /* AuthenticationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF9905711E415C66001BE158 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		EFC0BE691E37130D008306BE /* ListenIn 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ListenIn 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC0BE6C1E37130D008306BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFC0BE6E1E37130D008306BE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		EFC0BE701E37130D008306BE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		EFC0BE721E37130D008306BE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		EFC0BE751E37130E008306BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EFC0BE771E37130E008306BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC0BE7A1E37130E008306BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC0BE7C1E37130E008306BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC96B231E4131680085B92B /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		EFC96B241E4131680085B92B /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		EFC96B281E4132010085B92B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFC96B2A1E4132070085B92B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EFC96B301E41376C0085B92B /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		EFE69F781E4148DE006EE163 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC96B251E4131680085B92B /* SpotifyAudioPlayback.framework in Frameworks */,
+				EFC96B261E4131680085B92B /* SpotifyAuthentication.framework in Frameworks */,
+				EFC96B291E4132010085B92B /* AVFoundation.framework in Frameworks */,
+				EFC96B2B1E4132070085B92B /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,15 +68,36 @@
 			isa = PBXGroup;
 			children = (
 				EFC0BE6C1E37130D008306BE /* AppDelegate.swift */,
-				EFC0BE6E1E37130D008306BE /* RootViewController.swift */,
-				EFC0BE701E37130D008306BE /* DataViewController.swift */,
-				EFC0BE721E37130D008306BE /* ModelController.swift */,
+				EFC96B301E41376C0085B92B /* AuthenticationViewController.swift */,
 				EFC0BE741E37130E008306BE /* Main.storyboard */,
-				EFC0BE771E37130E008306BE /* Assets.xcassets */,
+				EF9905711E415C66001BE158 /* Images.xcassets */,
 				EFC0BE791E37130E008306BE /* LaunchScreen.storyboard */,
 				EFC0BE7C1E37130E008306BE /* Info.plist */,
+				EFC96B271E41317A0085B92B /* Frameworks */,
+				EFC96B2F1E41367C0085B92B /* BridgingHeader */,
 			);
 			path = "ListenIn 2.0";
+			sourceTree = "<group>";
+		};
+		EFC96B271E41317A0085B92B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC96B2A1E4132070085B92B /* SystemConfiguration.framework */,
+				EFC96B281E4132010085B92B /* AVFoundation.framework */,
+				EFC96B231E4131680085B92B /* SpotifyAudioPlayback.framework */,
+				EFC96B241E4131680085B92B /* SpotifyAuthentication.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFC96B2F1E41367C0085B92B /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				EFE69F781E4148DE006EE163 /* BridgingHeader.h */,
+			);
+			name = BridgingHeader;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +133,7 @@
 					EFC0BE681E37130D008306BE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y38T3TH9N8;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,8 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9905721E415C66001BE158 /* Images.xcassets in Resources */,
 				EFC0BE7B1E37130E008306BE /* LaunchScreen.storyboard in Resources */,
-				EFC0BE781E37130E008306BE /* Assets.xcassets in Resources */,
 				EFC0BE761E37130E008306BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,9 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC0BE6F1E37130D008306BE /* RootViewController.swift in Sources */,
-				EFC0BE731E37130D008306BE /* ModelController.swift in Sources */,
-				EFC0BE711E37130D008306BE /* DataViewController.swift in Sources */,
+				EFC96B311E41376C0085B92B /* AuthenticationViewController.swift in Sources */,
 				EFC0BE6D1E37130D008306BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,11 +296,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y38T3TH9N8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ListenIn 2.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samL.ListenIn-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -280,11 +317,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y38T3TH9N8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ListenIn 2.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samL.ListenIn-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -308,6 +352,7 @@
 				EFC0BE811E37130E008306BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
