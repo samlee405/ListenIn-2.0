@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1EED0E1E43C06700AB2A6B /* MainViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1EED0D1E43C06700AB2A6B /* MainViewViewController.swift */; };
+		EF1EED101E43C62600AB2A6B /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1EED0F1E43C62600AB2A6B /* SongCell.swift */; };
 		EF9905721E415C66001BE158 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9905711E415C66001BE158 /* Images.xcassets */; };
 		EFC0BE6D1E37130D008306BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0BE6C1E37130D008306BE /* AppDelegate.swift */; };
 		EFC0BE761E37130E008306BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC0BE741E37130E008306BE /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF1EED0D1E43C06700AB2A6B /* MainViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewViewController.swift; sourceTree = "<group>"; };
+		EF1EED0F1E43C62600AB2A6B /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 		EF9905711E415C66001BE158 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		EFC0BE691E37130D008306BE /* ListenIn 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ListenIn 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC0BE6C1E37130D008306BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 			children = (
 				EFC0BE6C1E37130D008306BE /* AppDelegate.swift */,
 				EFC96B301E41376C0085B92B /* AuthenticationViewController.swift */,
+				EF1EED0D1E43C06700AB2A6B /* MainViewViewController.swift */,
+				EF1EED0F1E43C62600AB2A6B /* SongCell.swift */,
 				EFC0BE741E37130E008306BE /* Main.storyboard */,
 				EF9905711E415C66001BE158 /* Images.xcassets */,
 				EFC0BE791E37130E008306BE /* LaunchScreen.storyboard */,
@@ -174,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1EED101E43C62600AB2A6B /* SongCell.swift in Sources */,
 				EFC96B311E41376C0085B92B /* AuthenticationViewController.swift in Sources */,
+				EF1EED0E1E43C06700AB2A6B /* MainViewViewController.swift in Sources */,
 				EFC0BE6D1E37130D008306BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

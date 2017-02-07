@@ -20,12 +20,49 @@
                     <view key="view" contentMode="scaleToFill" id="V9w-Yf-1jZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="HUy-UQ-HV8">
+                                <rect key="frame" x="67" y="174" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="eSH-1h-l1H"/>
+                                    <constraint firstAttribute="width" constant="240" id="og0-QN-Pgu"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4x-sS-7ci">
+                                <rect key="frame" x="81" y="477" width="213" height="41"/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.72549019607843135" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="YuD-m0-Jat"/>
+                                    <constraint firstAttribute="height" constant="41" id="fls-i6-Eza"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SIGN INTO SPOTIFY">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressLogIn:" destination="q6w-5K-W7j" eventType="touchUpInside" id="oML-GH-0AV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K4x-sS-7ci" firstAttribute="top" secondItem="HUy-UQ-HV8" secondAttribute="bottom" constant="63" id="E4i-Pz-Agl"/>
+                            <constraint firstItem="HUy-UQ-HV8" firstAttribute="top" secondItem="EfX-Ez-84Z" secondAttribute="bottom" constant="154" id="Ma4-eQ-R3E"/>
+                            <constraint firstItem="K4x-sS-7ci" firstAttribute="centerX" secondItem="V9w-Yf-1jZ" secondAttribute="centerX" id="eqq-3l-hWu"/>
+                            <constraint firstItem="HUy-UQ-HV8" firstAttribute="centerX" secondItem="V9w-Yf-1jZ" secondAttribute="centerX" id="mDr-KV-I79"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="logInButton" destination="K4x-sS-7ci" id="pu8-56-I5u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdu-Mz-y5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-909" y="-9"/>
+            <point key="canvasLocation" x="-909.60000000000002" y="-9.4452773613193415"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon" width="512" height="512"/>
+    </resources>
 </document>
